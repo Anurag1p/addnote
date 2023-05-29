@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-size: 12px;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  
+}
+body{
+background-color: whitesmoke;
+width: 100%;
+/* display: flex; */
+
+}
+.mytitle{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+/* CONTAINER WHERE NOTES ARE WRITTEN */
+.container{
+    width: 100vw;
+    border-radius: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+
+}
+.result{
+    width: 480px;
+    height: 400px;
+    background: rgb(223, 153, 153);
+    background-color: #fff;
+    padding: 25px;
+    border: 2px solid greenyellow;
+}
+/* CONTENT INSIDE CONTAINER */
+#task{
+    width: 480px;
+    height: 400px;
+    padding: 25px;
+    background-color: #fff;
+    border-top: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+   
+}
+/* FOR TITLE INPUT */
+#task input{
+    padding: 10px;
+    position: relative;
+    width: 80%;
+    color: purple;
+    height: 15px;
+    font-size: 1rem;
+    border: 1px solid  purple;
+    border-radius: 5px;
+    /* text-transform: uppercase; */
+}
+#task input:focus{
+ outline: none;
+}
+.total{
+    color: red;
+    font-size:30px;
+
+}
+.tnum{
+    color: rgb(36, 51, 190);
+    font: 700;
+    font-size:30px;
+}
+
+/* .dsc{
+    padding: 10px;
+    position: relative;
+    width: 60%;
+    height: 100px;
+    color: purple;
+  margin: 20px 0;
+    font-size: 1rem;
+    border: 1px solid  purple;
+    border-radius: 5px;
+    resize: none;
+} */
+
+.AddToDo{
+    padding: 17px;
+    position: relative;
+    width: 30%;
+    /* color: rgb(0, 0, 0); */
+    height: 15px;
+    font-size: 1rem;
+    border: 1px solid  purple;
+    border-radius: 5px;
+    line-height: 1px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color:greenyellow;
+}
+.AddToDo:hover{
+    color: white !important;
+    background-color: green;
+}
+
+
+.dsc{
+    color: blueviolet;
+}
+
+.heading{
+    text-align: center;
+    color: blueviolet;
+    font-size: 18px;
+
+}
+.table_row{
+    width:100%;
+    border:solid 1px greenyellow;
+    color: blue;
+    text-align: center;
+
+}
+
+td {
+    width:15%;padding:7px;
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+
+}
+.edit{
+    color:green;
+    cursor:pointer;
+    text-align: center;
+
+}
+.edit:hover{
+    color: rgb(60, 211, 60);
+}
+.del{
+    color: red;
+    cursor: pointer;
+    text-align: center;
+}
+.del:hover{
+    color: rgb(101, 58, 58);
+}
+
+tr:nth-of-type(even) {
+    background-color:#EBF7E3;
+  }
+
+
+  tr:nth-of-type(odd) {
+    background-color:whitesmoke;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main{
+    height: 100vh;
+    width: 50vw;
+    margin: 0 auto;
+    background-color: rgb(176, 149, 201);
+}
+#username{
+    margin:0 auto;
+    width: 30%;
+    height: 30px;
+    border: 5px solid green;
+}
+#addData{
+    color: white;
+    background-color: greenyellow;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer
+}
+#addData .line:hover{
+    color: white;
+    background-color: rgb(72, 103, 25);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer
+}
+#setData{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+#setData .line:hover{
+    color: white;
+    background-color: rgb(180, 69, 69);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+.inputs{
+    border: 1px solid red;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+} */
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Addnotes</title>
+  <link rel="stylesheet" href="./style.css" />
+  
+</head>
+<body>
+
+  <h1 class="mytitle">MY NOTES</h1>
+  <div class="container">
+    <div id="task" class="main_div">
+      <input placeholder="Add title" type="text" id="txt_title"/>
+      <!-- <input type="text" id="txt_title" onfocus="this.value=''" placeholder="Your Name....."/>  -->
+      <input type="button"  id="btn_add" style="padding:16px" class="AddToDo" value="Add Note"/>    
+
+    </div>
+    <div class="result">
+      <h3 class="heading">My Notes</h3>
+      <table class="table_row" id="tbl_record" ></table>
+      
+    </div>
+
+
+  </div>
+  <h1 class="total" style="border:1px solid red;width:400px;margin:10px auto;">Total Notes:<spanc class="tnum">12</spanc></h1>
+  <!-- This script tag is for implementation of js -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
